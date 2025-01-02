@@ -4,29 +4,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Godsmiracle Ibitayo | Data Analyst Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="js/script.js"></script>
 </head>
-<body>
-  <header>
-    <h1>Godsmiracle Ibitayo</h1>
-    <p>Data Analyst | Machine Learning Expert</p>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header Section -->
+  <header class="bg-gradient-to-r from-blue-600 to-teal-500 text-white py-12">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold">Godsmiracle Ibitayo</h1>
+      <p class="text-xl mt-2">Data Analyst | Machine Learning Expert</p>
+    </div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+
+  <!-- Navigation Bar -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto">
+      <ul class="flex justify-center space-x-6 py-4 text-lg font-medium">
+        <li><a href="index.html" class="text-blue-600 border-b-2 border-blue-600">Home</a></li>
+        <li><a href="projects.html" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="about.html" class="hover:text-blue-600">About</a></li>
+        <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </div>
   </nav>
-  <main>
-    <section class="intro">
-      <h2>Welcome to My Portfolio</h2>
-      <p>Explore my work in data analysis, machine learning, and more. Let’s connect and make data work for you!</p>
+
+  <!-- Main Content -->
+  <main class="container mx-auto py-12">
+    <!-- Welcome Section -->
+    <section class="text-center">
+      <h2 class="text-3xl font-bold text-gray-700">Welcome to My Portfolio</h2>
+      <p class="text-gray-600 mt-4">
+        Explore my work in data analysis, machine learning, and more. Let’s connect and make data work for you!
+      </p>
+      <button class="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition">
+        <a href="projects.html">Explore My Projects</a>
+      </button>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="mt-12">
+      <h3 class="text-2xl font-semibold text-gray-700 text-center">My Expertise</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <div class="bg-white shadow-md rounded-lg p-6 text-center">
+          <i class="fas fa-database text-4xl text-blue-600"></i>
+          <h4 class="text-lg font-bold mt-4">Data Analysis</h4>
+          <p class="text-gray-600 mt-2">Transforming data into actionable insights for business growth.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-6 text-center">
+          <i class="fas fa-chart-line text-4xl text-teal-500"></i>
+          <h4 class="text-lg font-bold mt-4">Machine Learning</h4>
+          <p class="text-gray-600 mt-2">Building predictive models to solve complex problems.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-6 text-center">
+          <i class="fas fa-cogs text-4xl text-gray-700"></i>
+          <h4 class="text-lg font-bold mt-4">Data Visualization</h4>
+          <p class="text-gray-600 mt-2">Creating dashboards and visualizations for impactful storytelling.</p>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
-    <p>&copy; 2025 Godsmiracle Ibitayo. All rights reserved.</p>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Godsmiracle Ibitayo. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
