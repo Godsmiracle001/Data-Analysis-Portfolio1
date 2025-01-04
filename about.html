@@ -4,29 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Godsmiracle Ibitayo</title>
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body>
-  <header>
-    <h1>About Me</h1>
+<body class="bg-black text-gray-300">
+  <!-- Header Section -->
+  <header class="bg-gradient-to-r from-green-600 via-black to-green-600 text-white py-12">
+    <div class="container mx-auto text-center">
+      <h1 class="text-5xl font-bold">About Me</h1>
+      <p class="text-lg mt-4">Get to know more about my professional journey and passion for data.</p>
+    </div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+
+  <!-- Navigation -->
+  <nav class="bg-gray-900 shadow-md">
+    <div class="container mx-auto">
+      <ul class="flex justify-center space-x-6 py-4 text-lg font-medium">
+        <li><a href="index.html" class="hover:text-green-600">Home</a></li>
+        <li><a href="projects.html" class="hover:text-green-600">Projects</a></li>
+        <li><a href="about.html" class="text-green-600 border-b-2 border-green-600">About</a></li>
+        <li><a href="contact.html" class="hover:text-green-600">Contact</a></li>
+      </ul>
+    </div>
   </nav>
-  <main>
-    <section class="about">
-      <p>Hi, I’m Godsmiracle Ibitayo. I specialize in uncovering insights from data, helping businesses make smarter decisions.</p>
-      <p>With certifications in Data Analytics, I focus on Python, SQL, and visualization tools like Power BI and Tableau.</p>
-      <p>When I’m not analyzing data, I enjoy mentoring aspiring data professionals and exploring innovations in AI.</p>
+
+  <!-- Main Content -->
+  <main class="container mx-auto py-12 px-4">
+    <!-- Introduction -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-green-500 mb-4">Hi, I'm Godsmiracle Ibitayo</h2>
+      <p class="text-gray-400 text-lg mb-4">
+        I specialize in uncovering insights from data, helping businesses make smarter decisions. With expertise in Python, SQL, Power BI, and Tableau, I’m passionate about transforming raw data into meaningful stories.
+      </p>
+      <p class="text-gray-400 text-lg">
+        Beyond data, I enjoy mentoring aspiring professionals and exploring the frontiers of AI and machine learning.
+      </p>
     </section>
+
+    <!-- Education Section -->
+    <section class="mb-12">
+      <h3 class="text-2xl font-bold text-green-500 mb-6"><i class="fas fa-graduation-cap"></i> Education</h3>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <p class="text-lg font-medium">Bachelor of Science (B.Sc) – Computer Science</p>
+        <p>Federal University Lokoja, Lokoja, Kogi State</p>
+        <p class="text-gray-400">Graduated: December 2022</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="mb-12">
+      <h3 class="text-2xl font-bold text-green-500 mb-6"><i class="fas fa-tools"></i> Technical Skills</h3>
+      <ul class="grid grid-cols-2 gap-6 text-lg">
+        <li class="flex items-center"><i class="fas fa-code text-green-500 mr-3"></i> Python</li>
+        <li class="flex items-center"><i class="fas fa-database text-green-500 mr-3"></i> SQL</li>
+        <li class="flex items-center"><i class="fas fa-chart-line text-green-500 mr-3"></i> Power BI</li>
+        <li class="flex items-center"><i class="fas fa-bar-chart text-green-500 mr-3"></i> Tableau</li>
+        <li class="flex items-center"><i class="fas fa-brain text-green-500 mr-3"></i> Machine Learning</li>
+        <li class="flex items-center"><i class="fas fa-desktop text-green-500 mr-3"></i> Data Visualization</li>
+      </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section class="mb-12">
+      <h3 class="text-2xl font-bold text-green-500 mb-6"><i class="fas fa-certificate"></i> Certifications</h3>
+      <ul class="list-disc pl-6 text-lg">
+        <li>Certified Data Analyst</li>
+        <li>Power BI Specialist</li>
+        <li>Python for Data Science</li>
+      </ul>
+    </section>
+
+    <!-- Call-to-Action -->
+    <div class="text-center mt-12">
+      <a href="https://github.com/Godsmiracle001" target="_blank" class="inline-block px-6 py-3 bg-green-600 text-black font-medium text-lg rounded-lg hover:bg-green-500 transition flex items-center justify-center">
+        <i class="fas fa-link mr-2"></i> Explore My Work
+      </a>
+    </div>
   </main>
-  <footer>
-    <p>&copy; 2025 Godsmiracle Ibitayo. All rights reserved.</p>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Godsmiracle Ibitayo. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
